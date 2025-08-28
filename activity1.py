@@ -11,7 +11,7 @@ def handle_keypress(event):
     print(event.char)
 
 #Bind keypress event to handle_keypress()
-window.bind("<Key>", handle_keypress())
+window.bind("<Key>", handle_keypress)
 
 #Event handler for button
 def handle_click(event):
